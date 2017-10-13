@@ -1,0 +1,14 @@
+{
+  "state": "DEBUG",
+
+  "name": "MAIPA",
+  "namephonetic": "MYPA",
+
+  "currentstyle": "default",
+  "stylelist": [
+    "default",
+    "pirate"
+  ],
+
+  "localization": "EN"
+}
