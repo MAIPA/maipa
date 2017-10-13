@@ -20,7 +20,9 @@ def py_error_handler(filename, line, function, err, fmt):
 ################################################################################
 def say_response(said):
     #ideally send to API server to get a response at this point
-    if said in ('hello' or 'hi' or 'whats up'):
+    if said == "":
+        pass
+    elif said in ('hello' or 'hi' or 'whats up'):
         print "Heya, how's it going?"
         tts("Heya, how's it going?")
     elif said in ('how are you' or 'how are you doing'):
